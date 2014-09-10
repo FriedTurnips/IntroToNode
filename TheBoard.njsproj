@@ -33,6 +33,8 @@
   <ItemGroup>
     <Compile Include="controllers\homeController.js" />
     <Compile Include="controllers\index.js" />
+    <Compile Include="data\index.js" />
+    <Compile Include="data\seedData.js" />
     <Compile Include="server.js" />
     <Compile Include="views\index.vash" />
     <Content Include="package.json" />
@@ -41,6 +43,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="controllers\" />
+    <Folder Include="data\" />
     <Folder Include="views\" />
   </ItemGroup>
   <Import Project="$(VSToolsPath)\Node.js Tools\Microsoft.NodejsTools.targets" />
