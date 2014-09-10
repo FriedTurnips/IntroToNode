@@ -1,0 +1,15 @@
+{
+  "name": "TheBoard",
+  "version": "0.1.0",
+  "description": "Tracking user messages",
+  "main": "server.js",
+  "author": {
+    "name": "nelder",
+    "email": ""
+  },
+  "dependencies": {
+    "express": "^4.9.0",
+    "underscore": "^1.7.0",
+    "vash": "^0.7.12-1"
+  }
+}
