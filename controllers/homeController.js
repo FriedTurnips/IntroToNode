@@ -7,7 +7,7 @@
             
             data.getNoteCategories(function (err, results) {
                 
-                res.render("index", { title: "Express + Vash", error: err, categories: results });
+                res.render("index", { title: "The Board", error: err, categories: results });
             });
         });
     };
